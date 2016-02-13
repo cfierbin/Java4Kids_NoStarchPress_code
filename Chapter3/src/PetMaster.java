@@ -6,15 +6,24 @@ public class PetMaster {
     public static void main(String[] args) {
 
         String petReaction;
+        String fishReaction; 
 
         Pet myPet = new Pet();
-
+        Fish myFish = new Fish();
+        Dog biju = new Dog();
+        
+        biju.bark();
+/*
         myPet.eat();
 
         petReaction = myPet.talk("Tweet!! Tweet!!");
 
         System.out.println(petReaction);
 
-        myPet.sleep();
+        myPet.sleep();  
+       
+        fishReaction = myFish.talk("Hello"); 
+        System.out.println(fishReaction);
+        */
     }
 }

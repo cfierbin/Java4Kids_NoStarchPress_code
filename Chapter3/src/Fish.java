@@ -15,4 +15,8 @@ public class Fish extends Pet {
 
         return currentDepth;
     }
+    
+    public String talk(String something){
+    	return "Don't you know that fish do not talk?";
+    }
 }
